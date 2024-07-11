@@ -1,0 +1,11 @@
+Singleton Pattern:
+ Ensures a class has only one instance, providing a global point of access.
+ Beneficial for scenarios where a single object is needed for coordination (e.g., configuration settings).
+
+Factory Pattern:
+ Provides an interface for creating objects, allowing subclasses to determine the object type.
+ Useful for creating objects when the exact type is determined at runtime.
+
+Builder Pattern:
+ Separates object construction from its representation, allowing the same construction process to create different representations.
+ Ideal for constructing complex objects with multiple configurations.

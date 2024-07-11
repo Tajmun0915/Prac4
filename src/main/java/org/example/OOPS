@@ -1,0 +1,36 @@
+Encapsulation:
+       Encapsulation is the principle of bundling data (attributes) and methods (functions) that operate on the data into a single unit called an object.
+       It restricts direct access to some of the object's components, protecting the data from unintended interference and misuse.
+
+Polymorphism :
+    Polymorphism allows objects of different classes to be treated as objects of a common superclass.
+    It enables a single interface to represent different underlying forms (data types).
+
+Inheritance:
+       Inheritance is a mechanism where a new class (subclass) is derived from an existing class (superclass), inheriting its fields and methods.
+       The subclass can also have its own additional fields and methods, and it can override methods from the superclass.
+
+Composition:
+       Composition is a design principle where a class is composed of one or more objects of other classes, delegating functionality to these objects.
+       Instead of inheriting from a class, a class includes instances of other classes to achieve its behavior.
+
+Interfaces in Java:
+    An interface in Java is a reference type, similar to a class, that can contain only abstract methods (until Java 8, when default and static methods were introduced).
+    Interfaces specify what a class must do, but not how it does it.
+Purpose:
+To specify a contract that classes must follow.
+To achieve multiple inheritance in Java, since a class can implement multiple interfaces but can inherit from only one class.
+
+Abstract Classes in Java:
+       An abstract class in Java is a class that cannot be instantiated on its own and is meant to be subclassed.
+       It can contain both abstract methods (without an implementation) and concrete methods (with an implementation).
+Purpose:
+To provide a base class that can define common behavior for subclasses while allowing specific behavior to be implemented by the subclasses.
+To partially implement a class with some common functionality, leaving the rest to be implemented by subclasses.
+
+Method Overloading:
+      Achieves compile-time polymorphism (static binding).
+       The method to be invoked is determined at compile time based on the method signature.
+Method Overriding:
+       Achieves runtime polymorphism (dynamic binding).
+       The method to be invoked is determined at runtime based on the actual object type.

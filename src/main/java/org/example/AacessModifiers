@@ -1,0 +1,13 @@
+
+Java provides four types of access modifiers :
+Public: The member is accessible from any other class.
+Private: The member is accessible only within the class it is declared.
+Protected: The member is accessible within the same package and by subclasses.
+Default (Package-Private): If no access modifier is specified, the member is accessible only within the same package.
+
+
+Scope of Access Modifiers :
+Public: Accessible from any class in any package.
+Private: Accessible only within the class it is defined.
+Protected: Accessible within the same package and by subclasses (including those in different packages).
+Default (Package-Private): Accessible only within the same package.
